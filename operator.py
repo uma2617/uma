@@ -105,3 +105,23 @@ if pin == correct_pin:
 
 else:
     print("Wrong PIN")
+
+####################################
+
+for i in range(2,6):
+    print(i)
+
+users=["babu","ravi","arun"]
+for users in users:
+    print("message sent to", users)
+
+
+for i in range(10):
+    if i == 5:
+        continue
+    print(i)
+
+password = ""
+while password != "1234":
+    password = input("enter password:")
+    print("login success")
