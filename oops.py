@@ -74,6 +74,33 @@ obj.house()
 obj.bike()
         
 
+class appa :
+    def house(self):
+        print("appa's house")
+class amma :
+    def car(self):
+        print("amma's car")
+        
+class maga(appa,amma):
+    def bike(self):
+        print("maga's bike")
+
+firstclass = maga()
+firstclass.house()
+firstclass.car()
+firstclass.bike()
+
+
+class student:
+    def __init__(self,name):
+        self.name=name
+    def __str__(self):
+        return self.name
+s=student("lucky")
+print(s)
+
+        
+
 
 
 
